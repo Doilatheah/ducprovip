@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 
 <head>
-  <link rel="stylesheet" href="/search/css/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
   <script src="https://kit.fontawesome.com/4b2f049118.js" crossorigin="anonymous"></script>
   <title> Computer Engineering Technology </title>
 </head>
