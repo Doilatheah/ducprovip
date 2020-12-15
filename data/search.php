@@ -26,7 +26,7 @@
 <body>
   <center>
     <div class="box">
-      <form action="" method="">
+      <form action="" method="GET">
         <input type="text" name="id" placeholder="Nhập mã số sinh viên" required>
         <input class="success" type="submit" name="search" value="Tìm kiếm">
       </form>
