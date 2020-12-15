@@ -1,0 +1,126 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+}
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: 0.2s;
+    color: white;
+    transition: 1.5s;   
+}
+input[type="text"] {
+    border: 2px solid #32e17c;
+    height: 50px;
+    width: 400px;
+    border-radius: 30px 0 0 30px;
+    padding: 0px 12px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  rgba(0,0,0,0.5);
+    outline: none;
+    transition: 0.5s;
+    
+}
+input[type="submit"] {
+    border: 2px solid #32e17c;
+    height: 50px;
+    width: 150px;
+    left: -4px;
+    border-radius: 0 30px 30px 0;
+    padding: 0px 12px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  rgba(0,0,0,0.5);
+    outline: none;
+    transition: 0.5s;
+}
+.success:hover {
+    background-color: #1F1513;
+    color: white;
+    outline: none;
+  }
+
+.social-media {
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    bottom: 55px;
+    left: 5px;
+    text-align: center;
+
+}
+     
+.social-media img {
+    transition: 1s;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.btn {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    margin: 5px;
+    border-radius: 20%;
+    box-shadow: 0 5px 15px -5px #000000;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn i {
+    line-height: 45px;
+    font-size: 26px;  
+    transition: 0.2s linear;  
+}
+.btn:hover i{
+    transform: scale(1.3);
+    color: #000000;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -90%;
+    top: 60%;
+}
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: 0%;
+    left: 0%;
+}
+@keyframes aaa{
+    0%{
+        left: -50%;
+        top: 10%;
+      }50%{
+        left: 10%;
+        top: -10%;
+      }100%{
+        top: -10%;
+        left: -10%;
+      }
+    }
+
+
+
+
